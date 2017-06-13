@@ -1,0 +1,13 @@
+Hello World in Fortran
+
+Taken from https://www.digitalocean.com/community/tutorials/how-thou-canst-maketh-a-fine-program-in-fortran
+
+To run
+
+$ ./OWorld
+
+To compile (Debian-ish)
+
+$ sudo apt-get update
+$ sudo apt-get install gfortan
+$ gfortran OWorld.f08 -o OWorld
